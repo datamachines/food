@@ -1,0 +1,4 @@
+slack_webhook_url: https://hooks.slack.com/services/<your webhook>
+username: Garfield
+emoji: ":robot_face:"
+channel: <your channel>
