@@ -37,5 +37,7 @@ for truck in foodtrucks:
         if "Arlington" in location:
             message = truck['name'] + " is in Arlington!"
             slacksend(message)
+        else:
+          print "no joy"
     else:
-        print("Unable to fetch %s" % truck)
+        print "Unable to fetch " + truck['name']
